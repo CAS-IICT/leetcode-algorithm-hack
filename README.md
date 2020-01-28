@@ -1,2 +1,2 @@
-# algorithm-example-kotlin
-This repository just record my process of using kotlin to practise my algorithm.
+# algorithm-example
+Use different languages to solve algorithm problems and compare them
