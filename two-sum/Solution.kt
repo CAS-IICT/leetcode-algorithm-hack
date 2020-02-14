@@ -8,5 +8,13 @@ class Solution {
         }
         return null
     }
-
+}
+fun main(){
+    val arr:IntArray = intArrayOf(2,7,11,15)
+    val target:Int = 9
+    val result = Solution().twoSum(arr,target)
+    result?.let{
+        var list = result.toList()
+        println(list)
+    }
 }
