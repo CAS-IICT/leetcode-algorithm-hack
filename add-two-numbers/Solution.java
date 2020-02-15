@@ -1,11 +1,19 @@
-i/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+    void print(){
+        var node = this;
+        System.out.print("[");
+        while(node!=null){
+            System.out.print(node.val);
+            node = node.next;
+            if(node!=null) System.out.print(", ");
+        }
+        System.out.print("]\n");
+    }
+}
+
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2, int... m) {
         int more = m.length > 0 ? m[0] : 0;
@@ -20,5 +28,21 @@ public class Solution {
             if(more==1) return new ListNode(1);
             else return null;
         }
+    }
+
+    public static void main(String args[]){
+        //list1
+        var list1 = new ListNode(2);
+        var node = new ListNode(4);
+        node.next = new ListNode(3);
+        list1.next = node;
+
+        // list2
+        var list2 = new ListNode(5);
+        node = new ListNode(6);
+        node.next = new ListNode(4);
+        list2.next = node;
+        var result = new Solution().addTwoNumbers(list1,list2);
+        result.print();
     }
 }

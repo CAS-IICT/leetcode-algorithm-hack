@@ -1,10 +1,17 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
+function ListNode(val) {
+    this.val = val
+    this.next = null
+    this.print=()=>{
+        let node = this
+        process.stdout.write('[')
+        while(node){
+            process.stdout.write(node.val+'')
+            node = node.next
+            if(node) process.stdout.write(', ')
+        }
+        process.stdout.write(']\n')
+    }
+}
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
@@ -23,3 +30,18 @@ var addTwoNumbers = function(l1, l2) {
     }
     return lh
 }
+
+// make l1
+let l1 = new ListNode(2)
+let node = new ListNode(4)
+node.next = new ListNode(3)
+l1.next = node
+
+//make l2
+let l2 = new ListNode(5)
+node = new ListNode(6)
+node.next = new ListNode(4)
+l2.next = node
+
+let result = addTwoNumbers(l1,l2)
+result.print()
