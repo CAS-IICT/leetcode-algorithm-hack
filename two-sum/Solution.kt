@@ -9,6 +9,7 @@ class Solution {
         return null
     }
 }
+
 fun main(){
     val arr:IntArray = intArrayOf(2,7,11,15)
     val target:Int = 9
