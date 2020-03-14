@@ -4,11 +4,11 @@
 
 Use different languages to solve algorithm problems and compare them
 
-Joke
+Joke 🌝
 
-> PHP is the best language in the world! :joy: :joy: :joy:
+> PHP is the best language in the world! 😂 😂 😂
 
-> PHP 是全世界最好的语言 lol! :joy: :joy: :joy:
+> PHP 是全世界最好的语言! 😂 😂 😂
 
 ## 概述
 
@@ -30,7 +30,7 @@ Joke
 -   C#
 -   PHP
 
-## 平台
+## 💻 平台
 
 Linux + Bash/Shell
 
@@ -42,7 +42,7 @@ Linux + Bash/Shell
 -   Mono 4+ (apt 安装)
 -   Kotlin-native (snap 安装)
 
-## 开始
+## 🏃 开始
 
 例如要运行 two sum 的案例
 
@@ -51,7 +51,7 @@ git clone https://github.com/devilyouwei/leetcode-algorithm-hack.git
 ./run.sh two-sum
 ```
 
-## 已实现的算法
+## 🎨 已实现的算法
 
 [Two Sum](two-sum/) easy
 
