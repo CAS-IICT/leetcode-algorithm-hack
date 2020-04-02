@@ -53,11 +53,13 @@ git clone https://github.com/devilyouwei/leetcode-algorithm-hack.git
 
 ## 🎨 已实现的算法
 
-[Two Sum](two-sum/) easy
+[Two Sum](two-sum/) Easy
 
-[Add Two Numbers](add-two-numbers/) medium
+[Add Two Numbers](add-two-numbers/) Medium
 
-[Longest Substring Without Repeating Characters](congest-substring-without-repeating-characters/) medium
+[Longest Substring Without Repeating Characters](congest-substring-without-repeating-characters/) Medium
+
+[Median Of Two Sorted Arrays](median-of-two-sorted-arrays/) Hard
 
 ## 持续更新中
 
