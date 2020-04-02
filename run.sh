@@ -1,5 +1,4 @@
 #!/bin/bash
-
 function getdir(){
     echo ""
     export TIMEFORMAT=$'real=%R user=%U sys=%S'
