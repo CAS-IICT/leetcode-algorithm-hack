@@ -2,7 +2,9 @@
 
 ![Suck Leetcode](logo.png)
 
-Use different languages to solve algorithm problems and compare them
+## 项目移交
+
+从 2020-10-30 起，将本项目移交至计算所苏州分组织：**中科院计算所苏研院**
 
 Joke 🌝
 
@@ -12,7 +14,9 @@ Joke 🌝
 
 ## 概述
 
-笔者将采用不同语言将 Leetcode 官网的算法题实现一遍，本 Repo 也是记录笔者学习算法的一个过程，希望对各个语言爱好者，算法爱好者，软件从业者有帮助。喜欢可以给个 star 鼓励一下，也可以在 ISSUE 中纠正或者改进笔者的算法。
+苏研院是中国科学院计算技术研究所下属的地方研究所，位于苏州工业园区。本项目为员工在组织自发发起的头脑风暴项目，专门用于员工打发工作之余的空闲时间。
+
+题库来自LeetCode，不同的员工使用不同的开发语言，对LeetCode上的算法题洗刷。
 
 ## 算法有用吗？
 
@@ -29,6 +33,7 @@ Joke 🌝
 -   Java
 -   C#
 -   PHP
+-   Python
 
 ## 💻 平台
 
@@ -48,6 +53,7 @@ Linux + Bash/Shell
 
 ```bash
 git clone https://github.com/devilyouwei/leetcode-algorithm-hack.git
+
 ./run.sh two-sum
 ```
 
@@ -64,5 +70,17 @@ git clone https://github.com/devilyouwei/leetcode-algorithm-hack.git
 ## 持续更新中
 
 本 repo 持续更新中，算法有优劣，笔者尽量展示较为高效的代码。
+
+## 贡献者
+
+[Devil](https://github.com/devilyouwei)
+
+[LouisdeBroglie](https://github.com/LouisdeBroglie)
+
+[BOTAKKK](https://github.com/orgs/CAS-IICT/people/BOTAKKK)
+
+[handsome913](https://github.com/orgs/CAS-IICT/people/handsome913)
+
+[lly456](https://github.com/lly456)
 
 ![Languages](languages.jpg)
